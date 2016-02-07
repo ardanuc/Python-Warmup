@@ -1,0 +1,6 @@
+My name 	 is 20.420352
+
+The value of b is 3.141593 and the value of h is 
+You are good
+ Enter an integer Enter numbers or jsut enter to quit
+integer: integer: integer: integer: Count 3 numbers are entered with sum of 18.000000 and mean 6.000000
