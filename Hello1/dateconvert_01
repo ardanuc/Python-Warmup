@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# This program cnoverts 03/24/2016 to May,24,2013
+
+def ConvertDate(dateString):
+	month_List=['Jan','Feb','March','April','May',
+	'June','July','Aug','Sep','Oct','Nov','Dec']
+	mdy_list=(dateString.replace('/',' ')).split()
+	convertedDateString1=month_List[int(mdy_list[0])+1]
+	print('/'.join([convertedDateString1,mdy_list[1], mdy_list[2]]))
+
+dateString=input('Enter the datestring to convert:')
+ConvertDate(dateString)

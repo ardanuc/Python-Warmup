@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+# This file is an encoder for ASCII
+
+
+# NumberMesssage=input('Enter the numeric message to decode')
+
+def encode_text(mytext):
+	encoded_text=''
+	for ch in mytext:
+		encoded_text+=(str(ord(ch))+' ')
+		print(ord(ch), end=' ')
+	print()
+	return encoded_text
+
+
+def decode_text(secret_message):
+	decoded_message=''
+	for numstr in secret_message.split():
+		decoded_message=decoded_message+chr(int(numstr))
+	return decoded_message
+
+
+mytext=input("Enter a messsage to Encode: ")
+print('ENcoded output is:')
+
+print('Decoded message',decode_text(encode_text(mytext)))
+
