@@ -17,8 +17,9 @@ for index in range(0,len(a)):
 	
 print("b is ",b)
 
-printmessage('Serhan')
+
 
 def printmessage(msg):
 	print(msg)
 
+printmessage('Serhan')

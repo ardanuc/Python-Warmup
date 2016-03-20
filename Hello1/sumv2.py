@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 # htis program is pretty cool
+# Just type sumv2.py < data.txt
 print ("Type  integers followed by Enter or ^D")
 count=0
 total=0
